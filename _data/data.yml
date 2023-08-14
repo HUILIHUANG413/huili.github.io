@@ -1,0 +1,272 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    position: left # position of the sidebar : left or right
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Huili Huang
+    tagline: PhD Student
+    avatar: img2.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: hhuang413@gatech.edu
+    #phone: 470 455 2984
+    #timezone: America/Cancun Timezone
+    #citizenship:
+    #website: blog.webjeda.com #do not add http://
+    linkedin: huilihuanggt
+    #xing: alandoe
+    #github: sharu725
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    #twitter: '@webjeda'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: https://drive.google.com/file/d/1pU4BJECiU4GcK31vyYlFqD0vYbR69RRm/view
+
+    languages:
+      title: Languages
+      info:
+        - idiom: Mandarin Chinese
+          level: Native
+
+        - idiom: Engilish
+          level: Professional
+
+        # - idiom: Spanish
+        #   level: Professional
+
+    # interests:
+    #   title: Interests
+    #   info:
+    #     - item: Climbing
+    #       link:
+
+    #     - item: Snowboarding
+    #       link:
+
+    #     - item: Cooking
+    #       link:
+
+career-profile:
+    title: About Me
+    summary: |
+      Hello! I'm Huili Huang. I am a third-year PhD student of Computational Science and Engineering(CSE), 
+      I'm advised by [Dr. David Frost](https://ocean.gatech.edu/people/dr-david-frost) and [Dr. Max Mahdi Roozbahani](https://mahdi-roozbahani.github.io/).
+      My research taps into utilizing deep learning for the assessment 
+      of natural disaster damage with limited information. 
+      My academic trajectory began at the University of Electronic 
+      Science and Technology of China (UESTC) where I acquired my B.S. 
+      in Software Engineering in 2019. I furthered my knowledge at Georgia Tech, 
+      earning an M.S. in Computer Science in 2021.
+      You can [view my free resume here](https://drive.google.com/file/d/1pU4BJECiU4GcK31vyYlFqD0vYbR69RRm/view?usp=drive_link).
+
+publications:
+    title: Publications
+    # intro: |
+    #   You can list your publications in this section. Lorem ipsum dolor sit
+    #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+    #   bibendum fringilla a eu lectus.
+    papers:
+      - title: "ScaleNet: An Unsupervised Representation Learning Method for Limited Information"
+        link: "https://dl.acm.org/doi/abs/10.1007/978-3-030-92659-5_11"
+        authors: Huili Huang M. Mahdi Roozbahani
+        conference: GCPR, 2021
+
+      - title: "Black Marble Nighttime Light Data for Disaster Damage Assessment (Under review)"
+        link: "#"
+        authors: Danrong Zhang, Huili Huang, Nimisha Roy, M. Mahdi Roozbahani, J. David Frost
+        #conference: (Under review)
+
+      # - title: A syntax directed compiler for Algol 60
+      #   link: "#"
+      #   authors: Edgar T. Irons
+      #   conference: "Comm. ACM 4 (1961), 51–55"    
+education:
+    title: Education
+    info:
+      - degree: PhD in Computational Science and Engineering
+        university: Georgia Institute of Technology
+        time: 2021 - 2025
+        details: |
+          Describe your study here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          sociis natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+          pretium quis, sem.
+            - Bullet point
+            - Bullet point
+
+      - degree: MSc in Computer Science
+        university: Georgia Institute of Technology
+        time: 2019 - 2021
+        details: |
+          Describe your study here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          sociis natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+          pretium quis, sem.
+            - Bullet point
+            - Bullet poin
+      - degree: BSc in Software Engineering
+        university: University of Electronic Science and Technology of China
+        time: 2015 - 2019
+        details: |
+          Describe your study here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          sociis natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+          pretium quis, sem.
+            - Bullet point
+            - Bullet point
+
+
+
+experiences:
+    title: Research Experiences
+    info:
+      - role: Graduate Research Assistant
+        time: 2021 - Prsent
+        company: Georgia Tech 
+        details: |
+         Under the mentorship of Dr. Frost and Dr. Roozbahani, I'm part of the "Disaster Group" dedicated to analyzing natural catastrophes such as earthquakes, hurricanes, and wildfires. 
+         We employ a range of tools for data acquisition, encompassing satellites, UAVs, and imagery from social media platforms. 
+         My primary research areas include:
+            - Geospatial damage assessment based on self-supervised learning
+            - Disaster damage analysis based on multi-source data
+      - role: Graduate Research Assistant
+        time: 2020 - 2021
+        company: Georgia Tech 
+        details: |
+          Under the mentorship of Dr. Roozbahani, centered around the exploration and development of data augmentation algorithms harnessing the power of deep learning techniques.
+          A primary emphasis was placed on self-supervised learning methods.
+          A simple and efficient unsupervised representation learning method named ScaleNet based on multi-scale images is proposed to enhance the performance of ConvNets when limited information is available. 
+        
+      - role: Software Engineer (Research Intern)
+        time: 2019
+        company: China
+        details: |
+          The development of a fire-detection system, extracting critical flame features using dynamic detection. 
+          Implemented the system in C++, first achieving 93% accuracy with SVM, then enhancing it to 99% accuracy by integrating YOLOv3.
+
+
+# certifications:
+#       title: Certifications
+#       list:
+#         - name: CV Builder
+#           start: 2020
+#           end: 2021
+#           organization: Microsoft
+#           credentialid: 111-222
+#           credentialurl: www.google.com
+#           credentialname: Google
+#           details: |
+#             Details about cert. Lorem ipsum dolor sit amet, consectetur 
+#             adipiscing elit.
+#             Nullam eget orci purus. Nullam ultrices neque nibh. 
+#             Aenean fermentum, felis vulputate suscipit accumsan, 
+#             sem enim bibendum augue, sed convallis arcu lacus at dui. 
+#             Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor. 
+#             Praesent felis nibh, eleifend id eleifend id, dictum id enim. 
+#             Praesent venenatis erat non augue suscipit consectetur. 
+            
+#             Second paragraph. Sed eleifend enim ante, vitae efficitur purus 
+#             fringilla vel. Ut euismod, sem sed vulputate venenatis, 
+#             justo diam viverra velit, sed rhoncus leo leo eu justo.
+#             Suspendisse placerat risus ante, sed porta nisi blandit at. 
+#         - name: Git learning
+#           start: 2019
+#           end:
+#           organization: Microsoft
+#           credentialid: 111-222
+#           credentialurl: www.github.com
+#           credentialname: Github
+#           details: |
+#             Older certification. Lorem ipsum dolor sit amet, consectetur 
+#             adipiscing elit.
+#             Nullam eget orci purus. Nullam ultrices neque nibh. 
+#             Aenean fermentum, felis vulputate suscipit accumsan, 
+#             sem enim bibendum augue, sed convallis arcu lacus at dui. 
+#             Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor. 
+#             Praesent felis nibh, eleifend id eleifend id, dictum id enim. 
+#             Praesent venenatis erat non augue suscipit consectetur. 
+        
+projects:
+    title: Teaching Experiences
+    # intro: >
+     
+    assignments:
+      - title: CS7641/CS4641-A/CS4641-B Machine Learning
+        link: https://mahdi-roozbahani.github.io/CS46417641-summer2023
+        tagline: Head GTA, Summer 2023
+
+      - title: CSE6242 Data and Visual Analytics(Online)
+        link: "https://poloclub.github.io/cse6242-2023spring-online/"
+        tagline: GTA, Spring2023
+
+      - title: CSE6242 Data and Visual Analytics(Campus)
+        link: "https://poloclub.github.io/cse6242-2022fall-online/"
+        tagline: Head GTA, Fall2022
+
+      - title: CSE6242 Data and Visual Analytics(Campus)
+        link: "https://poloclub.github.io/cse6242-2022spring-online/"
+        tagline: GTA, Spring2022
+
+      - title: CS7641/CS4641-A/CS4641-B Machine Learning
+        link: https://mahdi-roozbahani.github.io/CS46417641-fall2021
+        tagline: GTA, Spring 2020 - Fall2021
+
+oss:
+    title: Awards
+    # intro: >
+    #   You can list your open source software contributions in this
+    #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    contributions:
+      - title: Excellent graduate of UESTC(2019)
+        # link: "#"
+        # tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: First-rank study scholarship(2018)
+        # link: "#"
+        # tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Outstanding study scholarship(2017)
+        # link: "#"
+        # tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: China National Scholarship for College Student(2016)
+        # link: "#"
+        # tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+      
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Python & Pytorch
+        level: 99%
+
+      - name: Java, C++
+        level: 95%
+
+      - name: Javascript
+        level: 90%
+
+      - name: HTML5 & CSS & D3
+        level: 90%
+
+      # - name: Ruby on Rails
+      #   level: 85%
+
+      # - name: Sketch & Photoshop
+      #   level: 60%
+
+footer: >
+    Updated <i class="fas fa-heart"></i> on Aug. 2023 
