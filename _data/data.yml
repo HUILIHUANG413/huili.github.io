@@ -65,7 +65,7 @@ career-profile:
       Science and Technology of China (UESTC) where I acquired my B.S. 
       in Software Engineering in 2019. I furthered my knowledge at Georgia Tech, 
       earning an M.S. in Computer Science in 2021.
-      You can [view my free resume here](https://drive.google.com/file/d/1pU4BJECiU4GcK31vyYlFqD0vYbR69RRm/view?usp=drive_link).
+      You can view [my resume here](https://drive.google.com/file/d/1pU4BJECiU4GcK31vyYlFqD0vYbR69RRm/view?usp=drive_link).
 
 publications:
     title: Publications
@@ -156,46 +156,46 @@ experiences:
           Implemented the system in C++, first achieving 93% accuracy with SVM, then enhancing it to 99% accuracy by integrating YOLOv3.
 
 
-# certifications:
-#       title: Certifications
-#       list:
-#         - name: CV Builder
-#           start: 2020
-#           end: 2021
-#           organization: Microsoft
-#           credentialid: 111-222
-#           credentialurl: www.google.com
-#           credentialname: Google
-#           details: |
-#             Details about cert. Lorem ipsum dolor sit amet, consectetur 
-#             adipiscing elit.
-#             Nullam eget orci purus. Nullam ultrices neque nibh. 
-#             Aenean fermentum, felis vulputate suscipit accumsan, 
-#             sem enim bibendum augue, sed convallis arcu lacus at dui. 
-#             Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor. 
-#             Praesent felis nibh, eleifend id eleifend id, dictum id enim. 
-#             Praesent venenatis erat non augue suscipit consectetur. 
+certifications:
+      title: Publication
+      list:
+        - name: CV Builder
+          start: 2020
+          end: 2021
+          organization: Microsoft
+          credentialid: 111-222
+          credentialurl: www.google.com
+          credentialname: Google
+          details: |
+            Details about cert. Lorem ipsum dolor sit amet, consectetur 
+            adipiscing elit.
+            Nullam eget orci purus. Nullam ultrices neque nibh. 
+            Aenean fermentum, felis vulputate suscipit accumsan, 
+            sem enim bibendum augue, sed convallis arcu lacus at dui. 
+            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor. 
+            Praesent felis nibh, eleifend id eleifend id, dictum id enim. 
+            Praesent venenatis erat non augue suscipit consectetur. 
             
-#             Second paragraph. Sed eleifend enim ante, vitae efficitur purus 
-#             fringilla vel. Ut euismod, sem sed vulputate venenatis, 
-#             justo diam viverra velit, sed rhoncus leo leo eu justo.
-#             Suspendisse placerat risus ante, sed porta nisi blandit at. 
-#         - name: Git learning
-#           start: 2019
-#           end:
-#           organization: Microsoft
-#           credentialid: 111-222
-#           credentialurl: www.github.com
-#           credentialname: Github
-#           details: |
-#             Older certification. Lorem ipsum dolor sit amet, consectetur 
-#             adipiscing elit.
-#             Nullam eget orci purus. Nullam ultrices neque nibh. 
-#             Aenean fermentum, felis vulputate suscipit accumsan, 
-#             sem enim bibendum augue, sed convallis arcu lacus at dui. 
-#             Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor. 
-#             Praesent felis nibh, eleifend id eleifend id, dictum id enim. 
-#             Praesent venenatis erat non augue suscipit consectetur. 
+            Second paragraph. Sed eleifend enim ante, vitae efficitur purus 
+            fringilla vel. Ut euismod, sem sed vulputate venenatis, 
+            justo diam viverra velit, sed rhoncus leo leo eu justo.
+            Suspendisse placerat risus ante, sed porta nisi blandit at. 
+        - name: Git learning
+          start: 2019
+          end:
+          organization: Microsoft
+          credentialid: 111-222
+          credentialurl: www.github.com
+          credentialname: Github
+          details: |
+            Older certification. Lorem ipsum dolor sit amet, consectetur 
+            adipiscing elit.
+            Nullam eget orci purus. Nullam ultrices neque nibh. 
+            Aenean fermentum, felis vulputate suscipit accumsan, 
+            sem enim bibendum augue, sed convallis arcu lacus at dui. 
+            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor. 
+            Praesent felis nibh, eleifend id eleifend id, dictum id enim. 
+            Praesent venenatis erat non augue suscipit consectetur. 
         
 projects:
     title: Teaching Experiences
