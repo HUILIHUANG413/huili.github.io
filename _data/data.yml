@@ -80,9 +80,9 @@ publications:
         conference: GCPR, 2021
 
       - title: "Black Marble Nighttime Light Data for Disaster Damage Assessment (Under review)"
-        link: "#"
+        link: "https://www.mdpi.com/2072-4292/15/17/4257" 
         authors: Danrong Zhang, Huili Huang, Nimisha Roy, M. Mahdi Roozbahani, J. David Frost
-        #conference: (Under review)
+        conference: Remote Sensing, 2023
 
       # - title: A syntax directed compiler for Algol 60
       #   link: "#"
