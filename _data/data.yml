@@ -74,7 +74,17 @@ publications:
     #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
     #   bibendum fringilla a eu lectus.
     papers:
+
+     - title: "Optimizing Post-Disaster Assessment: Damage Detection and Localization in Social Media Images from Nepal Earthquake"
+        link: "#"
+        authors: Huili Huang, Danrong Zhang, M. Mahdi Roozbahani, J. David Frost
+        conference: Preprint
         
+      # - title: A syntax directed compiler for Algol 60
+      #   link: "#"
+      #   authors: Edgar T. Irons
+      #   conference: "Comm. ACM 4 (1961), 51–55"    
+      
       - title: "Black Marble Nighttime Light Data for Disaster Damage Assessment"
         link: "https://www.mdpi.com/2072-4292/15/17/4257" 
         authors: Danrong Zhang, Huili Huang, Nimisha Roy, M. Mahdi Roozbahani, J. David Frost
