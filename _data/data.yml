@@ -75,7 +75,7 @@ publications:
     #   bibendum fringilla a eu lectus.
     papers:
      - title: "Optimizing Post-Disaster Assessment: Damage Detection and Localization in Social Media Images from Nepal Earthquake"
-        link: ""
+        #link: ""
         authors: Huili Huang, Danrong Zhang, M. Mahdi Roozbahani, J. David Frost
         conference: Preprint
         
