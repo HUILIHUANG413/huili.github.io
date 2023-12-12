@@ -65,7 +65,7 @@ career-profile:
       Science and Technology of China (UESTC) where I acquired my B.S. 
       in Software Engineering in 2019. I furthered my knowledge at Georgia Tech, 
       earning an M.S. in Computer Science in 2021.
-      You can view [my resume here](https://drive.google.com/file/d/1QAKJjs3IE7VcRMquWlEk8CR29wHzP31Z/view?usp=sharing).
+      You can view [my resume here](https://drive.google.com/file/d/1a_oYvHx7QtDZ_K-fGIPx-fEPnkscFcv6/view?usp=sharing).
 
 publications:
     title: Publications
@@ -75,7 +75,7 @@ publications:
     #   bibendum fringilla a eu lectus.
     papers:
 
-     - title: "Optimizing Post-Disaster Assessment: Damage Detection and Localization in Social Media Images from Nepal Earthquake"
+      - title: "Optimizing Post-Disaster Assessment: Damage Detection and Localization in Social Media Images from Nepal Earthquake"
         link: "#"
         authors: Huili Huang, Danrong Zhang, M. Mahdi Roozbahani, J. David Frost
         conference: Preprint
