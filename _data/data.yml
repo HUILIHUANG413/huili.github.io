@@ -28,7 +28,7 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: https://drive.google.com/file/d/1QAKJjs3IE7VcRMquWlEk8CR29wHzP31Z/view?usp=sharing
+    pdf: https://drive.google.com/file/d/1a_oYvHx7QtDZ_K-fGIPx-fEPnkscFcv6/view?usp=sharing
 
     languages:
       title: Languages
@@ -74,10 +74,6 @@ publications:
     #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
     #   bibendum fringilla a eu lectus.
     papers:
-     - title: "Optimizing Post-Disaster Assessment: Damage Detection and Localization in Social Media Images from Nepal Earthquake"
-        #link: ""
-        authors: Huili Huang, Danrong Zhang, M. Mahdi Roozbahani, J. David Frost
-        conference: Preprint
         
       - title: "Black Marble Nighttime Light Data for Disaster Damage Assessment"
         link: "https://www.mdpi.com/2072-4292/15/17/4257" 
