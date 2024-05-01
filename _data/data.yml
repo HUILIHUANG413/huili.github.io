@@ -105,7 +105,7 @@ education:
     info:
       - degree: PhD in Computational Science and Engineering
         university: Georgia Institute of Technology
-        time: 2021 - 2025
+        time: 2021 - present
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -214,6 +214,14 @@ projects:
     # intro: >
      
     assignments:
+     - title: CS7641/CS4641 Machine Learning
+        link: "https://mahdi-roozbahani.github.io/CS46417641-summer2024/"
+        tagline: Head GTA, Fall2023
+        
+     - title: CSE6242 Data and Visual Analytics(Online)
+        link: "https://poloclub.github.io/cse6242-2024spring-online/"
+        tagline: GTA, Fall2024
+        
       - title: CSE6242 Data and Visual Analytics(Online)
         link: "https://poloclub.github.io/cse6242-2023fall-online/"
         tagline: GTA, Fall2023
@@ -285,4 +293,4 @@ skills:
       #   level: 60%
 
 footer: >
-    Updated <i class="fas fa-heart"></i> on Aug. 2023 
+    Updated <i class="fas fa-heart"></i> on May. 2024 
