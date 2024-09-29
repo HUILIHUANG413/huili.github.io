@@ -28,7 +28,7 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: https://drive.google.com/file/d/1a_oYvHx7QtDZ_K-fGIPx-fEPnkscFcv6/view?usp=sharing
+    pdf: https://drive.google.com/file/d/1_il-g3dfh9hpjKKF2mVDhHrKT3edythT/view?usp=sharing
 
     languages:
       title: Languages
@@ -74,6 +74,11 @@ publications:
     #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
     #   bibendum fringilla a eu lectus.
     papers:
+      - title: "Towards Enhancing the Utility of Social Media Images in Earthquake Disaster Assessment"
+        link: "#"
+        authors: Huili Huang, Danrong Zhang, Anastasiya Masalava, M. Mahdi Roozbahani, Nimisha Roy, J. David Frost
+        conference: Preprint
+        
 
       - title: "Optimizing Post-Disaster Assessment: Damage Detection and Localization in Social Media Images from Nepal Earthquake"
         link: "#"
@@ -150,8 +155,9 @@ experiences:
          Under the mentorship of Dr. Frost and Dr. Roozbahani, I'm part of the "Disaster Group" dedicated to analyzing natural catastrophes such as earthquakes, hurricanes, and wildfires. 
          We employ a range of tools for data acquisition, encompassing satellites, UAVs, and imagery from social media platforms. 
          My primary research areas include:
-            - Geospatial damage assessment based on self-supervised learning
             - Disaster damage analysis based on multi-source data
+            - Disaster damage assessment based on social media images and Large Vision Model(LVM)
+            - Geospatial damage assessment based on self-supervised learning
       - role: Graduate Research Assistant
         time: 2020 - 2021
         company: Georgia Tech 
@@ -214,6 +220,10 @@ projects:
     # intro: >
      
     assignments:
+      - title: CSE6242 Data and Visual Analytics(Online)
+        link: "https://poloclub.github.io/cse6242-2024fall-online/"
+        tagline: GTA, Fall2024
+        
       - title: CS7641/CS4641 Machine Learning
         link: "https://mahdi-roozbahani.github.io/CS46417641-summer2024/"
         tagline: Head GTA, Summer2024
@@ -293,4 +303,4 @@ skills:
       #   level: 60%
 
 footer: >
-    Updated <i class="fas fa-heart"></i> on May. 2024 
+    Updated <i class="fas fa-heart"></i> on Sep. 2024 
