@@ -10,7 +10,7 @@ sidebar:
     # Profile information
     name: Huili Huang
     tagline: PhD Student
-    avatar: img2.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: img3.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: hhuang413@gatech.edu
@@ -284,7 +284,7 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Pytorch
+      - name: Python & Pytorch & Numpy
         level: 99%
 
       - name: Java, C++
