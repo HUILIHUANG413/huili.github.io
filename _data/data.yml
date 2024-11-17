@@ -28,7 +28,7 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: https://drive.google.com/file/d/1_il-g3dfh9hpjKKF2mVDhHrKT3edythT/view?usp=sharing
+    pdf: https://drive.google.com/file/d/1loX0JXgUinDDFVtowsu11-uhFhzoC_rK/view?usp=drive_link
 
     languages:
       title: Languages
@@ -74,12 +74,30 @@ publications:
     #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
     #   bibendum fringilla a eu lectus.
     papers:
+      - title: "Detection with DASeg: A Domain-Adaptive Segmentation Pipeline Using Vision Foundation Model – Application on Earthquake Damaged Detection"
+        link: "#"
+        authors: Huili Huang, Andrew Zhang, Danrong Zhang, M. Mahdi Roozbahani, J. David Frost
+        conference: CVPR under review
+    
+
+      - title: "Dyniamic Object Detection and Distance Estimation in Construction: A Fisheye Camera and LiDAR Sensor Fusion Model"
+        link: "#"
+        authors: Yilong Chen, Huili Huang, Yong K. Cho
+        conference: ICRA under review
+
+
       - title: "Towards Enhancing the Utility of Social Media Images in Earthquake Disaster Assessment"
         link: "#"
         authors: Huili Huang, Danrong Zhang, Anastasiya Masalava, M. Mahdi Roozbahani, Nimisha Roy, J. David Frost
-        conference: Under review
+        conference: Earthquake Spectra under review
         
 
+      - title: "From Pixel to Damage Severity: Estimating Earthquake Impacts Using Semantic Segmentation of Social Media Images"
+        link: "#"
+        authors: Danrong Zhang, Huili Huang, N. Simrill Smith, M. Mahdi Roozbahani, Nimisha Roy, J. David Frost
+        conference: Earthquake Spectra under review
+
+        
       - title: "Optimizing Post-Disaster Assessment: Damage Detection and Localization in Social Media Images from Nepal Earthquake"
         link: "#"
         authors: Huili Huang, Danrong Zhang, M. Mahdi Roozbahani, J. David Frost
