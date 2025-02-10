@@ -74,16 +74,16 @@ publications:
     #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
     #   bibendum fringilla a eu lectus.
     papers:
-      - title: "Detection with DASeg: A Domain-Adaptive Segmentation Pipeline Using Vision Foundation Model – Application on Earthquake Damaged Detection"
-        link: "#"
-        authors: Huili Huang, Andrew Zhang, Danrong Zhang, M. Mahdi Roozbahani, J. David Frost
-        conference: CVPR under review
+      #- title: "Detection with DASeg: A Domain-Adaptive Segmentation Pipeline Using Vision Foundation Model – Application on Earthquake Damaged Detection"
+      #  link: "#"
+      #  authors: Huili Huang, Andrew Zhang, Danrong Zhang, M. Mahdi Roozbahani, J. David Frost
+      #  conference: CVPR under review
     
 
-      - title: "Dyniamic Object Detection and Distance Estimation in Construction: A Fisheye Camera and LiDAR Sensor Fusion Model"
-        link: "#"
-        authors: Yilong Chen, Huili Huang, Yong K. Cho
-        conference: ICRA under review
+      #- title: "Dyniamic Object Detection and Distance Estimation in Construction: A Fisheye Camera and LiDAR Sensor Fusion Model"
+      #  link: "#"
+      #  authors: Yilong Chen, Huili Huang, Yong K. Cho
+      #  conference: ICRA under review
 
 
       - title: "Towards Enhancing the Utility of Social Media Images in Earthquake Disaster Assessment"
@@ -98,10 +98,10 @@ publications:
         conference: Earthquake Spectra under review
 
         
-      - title: "Optimizing Post-Disaster Assessment: Damage Detection and Localization in Social Media Images from Nepal Earthquake"
-        link: "#"
-        authors: Huili Huang, Danrong Zhang, M. Mahdi Roozbahani, J. David Frost
-        conference: Preprint
+      #- title: "Optimizing Post-Disaster Assessment: Damage Detection and Localization in Social Media Images from Nepal Earthquake"
+      #  link: "#"
+      #  authors: Huili Huang, Danrong Zhang, M. Mahdi Roozbahani, J. David Frost
+      #  conference: Preprint
         
       # - title: A syntax directed compiler for Algol 60
       #   link: "#"
