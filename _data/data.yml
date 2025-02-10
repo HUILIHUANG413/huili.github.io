@@ -239,6 +239,10 @@ projects:
      
     assignments:
       - title: CSE6242 Data and Visual Analytics(Online)
+        link: "https://poloclub.github.io/cse6242-2025spring-online/"
+        tagline: GTA, Spring2025
+        
+      - title: CSE6242 Data and Visual Analytics(Online)
         link: "https://poloclub.github.io/cse6242-2024fall-online/"
         tagline: GTA, Fall2024
         
