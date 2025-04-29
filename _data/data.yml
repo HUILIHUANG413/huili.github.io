@@ -89,13 +89,13 @@ publications:
       - title: "Towards Enhancing the Utility of Social Media Images in Earthquake Disaster Assessment"
         link: "#"
         authors: Huili Huang, Danrong Zhang, Anastasiya Masalava, M. Mahdi Roozbahani, Nimisha Roy, J. David Frost
-        conference: Earthquake Spectra under review
+        conference: Earthquake Spectra in press
         
 
-      - title: "From Pixel to Damage Severity: Estimating Earthquake Impacts Using Semantic Segmentation of Social Media Images"
-        link: "#"
-        authors: Danrong Zhang, Huili Huang, N. Simrill Smith, M. Mahdi Roozbahani, Nimisha Roy, J. David Frost
-        conference: Earthquake Spectra under review
+      #- title: "From Pixel to Damage Severity: Estimating Earthquake Impacts Using Semantic Segmentation of Social Media Images"
+      #  link: "#"
+      #  authors: Danrong Zhang, Huili Huang, N. Simrill Smith, M. Mahdi Roozbahani, Nimisha Roy, J. David Frost
+      #  conference: Earthquake Spectra under review
 
         
       #- title: "Optimizing Post-Disaster Assessment: Damage Detection and Localization in Social Media Images from Nepal Earthquake"
@@ -238,6 +238,10 @@ projects:
     # intro: >
      
     assignments:
+      - title: CS7641/CS4641 Machine Learning
+        link: "https://mahdi-roozbahani.github.io/CS46417641-summer2025/"
+        tagline: Head GTA, Spring2025
+        
       - title: CSE6242 Data and Visual Analytics(Online)
         link: "https://poloclub.github.io/cse6242-2025spring-online/"
         tagline: GTA, Spring2025
