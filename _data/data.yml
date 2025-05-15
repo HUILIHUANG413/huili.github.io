@@ -87,9 +87,9 @@ publications:
 
 
       - title: "Towards Enhancing the Utility of Social Media Images in Earthquake Disaster Assessment"
-        link: "#"
+        link: "https://doi.org/10.1177/87552930251335649"
         authors: Huili Huang, Danrong Zhang, Anastasiya Masalava, M. Mahdi Roozbahani, Nimisha Roy, J. David Frost
-        conference: Earthquake Spectra in press
+        conference: Earthquake Spectra, 2025
         
 
       #- title: "From Pixel to Damage Severity: Estimating Earthquake Impacts Using Semantic Segmentation of Social Media Images"
