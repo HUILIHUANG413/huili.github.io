@@ -80,10 +80,10 @@ publications:
       #  conference: CVPR under review
     
 
-      #- title: "Dyniamic Object Detection and Distance Estimation in Construction: A Fisheye Camera and LiDAR Sensor Fusion Model"
-      #  link: "#"
-      #  authors: Yilong Chen, Huili Huang, Yong K. Cho
-      #  conference: ICRA under review
+      - title: "Dyniamic Object Detection and Distance Estimation in Construction: A Fisheye Camera and LiDAR Sensor Fusion Model"
+        link: "https://construction-robots.github.io/papers/93.pdf"
+        authors: Yilong Chen, Huili Huang, Yong K. Cho
+        conference: ICRA 2025 4th Workshop on Future of Construction: Safe, Reliable, and Precise Robots in Construction Environments
 
 
       - title: "Towards Enhancing the Utility of Social Media Images in Earthquake Disaster Assessment"
