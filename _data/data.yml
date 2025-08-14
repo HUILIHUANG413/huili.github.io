@@ -57,10 +57,9 @@ sidebar:
 career-profile:
     title: About Me
     summary: |
-      Hello! I'm Huili Huang. I am a 4th year PhD candidate of Computational Science and Engineering(CSE), 
+      Hello! I'm Huili Huang. I am a 5th year PhD candidate of Computational Science and Engineering(CSE), 
       I'm advised by [Dr. David Frost](https://ocean.gatech.edu/people/dr-david-frost) and [Dr. Max Mahdi Roozbahani](https://mahdi-roozbahani.github.io/).
-      My research taps into utilizing deep learning for the assessment 
-      of natural disaster damage with limited information. 
+      My research taps into post-disaster damage assessment using deep learning with social media data. 
       My academic trajectory began at the University of Electronic 
       Science and Technology of China (UESTC) where I acquired my B.S. 
       in Software Engineering in 2019. I furthered my knowledge at Georgia Tech, 
@@ -74,10 +73,10 @@ publications:
     #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
     #   bibendum fringilla a eu lectus.
     papers:
-      #- title: "Detection with DASeg: A Domain-Adaptive Segmentation Pipeline Using Vision Foundation Model – Application on Earthquake Damaged Detection"
-      #  link: "#"
-      #  authors: Huili Huang, Andrew Zhang, Danrong Zhang, M. Mahdi Roozbahani, J. David Frost
-      #  conference: CVPR under review
+      - title: "DASeg: A Domain-Adaptive Segmentation Pipeline Using Vision Foundation Models—Earthquake Damage Detection Use Case"
+        link: "https://www.mdpi.com/2072-4292/17/16/2812"
+        authors: Huili Huang, Andrew Zhang, Danrong Zhang, M. Mahdi Roozbahani, J. David Frost
+        conference:Remote Sensing, 2025
     
 
       - title: "Dyniamic Object Detection and Distance Estimation in Construction: A Fisheye Camera and LiDAR Sensor Fusion Model"
