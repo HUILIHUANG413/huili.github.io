@@ -172,7 +172,7 @@ experiences:
          Under the mentorship of Dr. Frost and Dr. Roozbahani, I'm part of the "Disaster Group" dedicated to analyzing natural catastrophes such as earthquakes, hurricanes, and wildfires. 
          We employ a range of tools for data acquisition, encompassing satellites, UAVs, and imagery from social media platforms. 
          My primary research areas include:
-            - Disaster damage analysis based on multi-source data
+            - Disaster damage analysis based on multi-source data, especially social media data
             - Disaster damage assessment based on social media images and Large Vision Model(LVM)
             - Geospatial damage assessment based on self-supervised learning
       - role: Graduate Research Assistant
@@ -238,8 +238,8 @@ projects:
      
     assignments:
       - title: CSE6242 Data and Visual Analytics(Online)
-          link: "https://poloclub.github.io/cse6242-2025fall-online/"
-          tagline: GTA, Fall2025
+        link: "https://poloclub.github.io/cse6242-2025fall-online/"
+        tagline: GTA, Fall2025
       - title: CS7641/CS4641 Machine Learning
         link: "https://mahdi-roozbahani.github.io/CS46417641-summer2025/"
         tagline: Head GTA, Summer2025
