@@ -76,7 +76,7 @@ publications:
       - title: "DASeg: A Domain-Adaptive Segmentation Pipeline Using Vision Foundation Models—Earthquake Damage Detection Use Case"
         link: "https://www.mdpi.com/2072-4292/17/16/2812"
         authors: Huili Huang, Andrew Zhang, Danrong Zhang, M. Mahdi Roozbahani, J. David Frost
-        conference:Remote Sensing, 2025
+        conference: Remote Sensing, 2025
     
 
       - title: "Dyniamic Object Detection and Distance Estimation in Construction: A Fisheye Camera and LiDAR Sensor Fusion Model"
@@ -237,6 +237,9 @@ projects:
     # intro: >
      
     assignments:
+      - title: CSE6242 Data and Visual Analytics(Online)
+          link: "https://poloclub.github.io/cse6242-2025fall-online/"
+          tagline: GTA, Fall2025
       - title: CS7641/CS4641 Machine Learning
         link: "https://mahdi-roozbahani.github.io/CS46417641-summer2025/"
         tagline: Head GTA, Summer2025
