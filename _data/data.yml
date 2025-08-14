@@ -77,6 +77,11 @@ publications:
         link: "https://www.mdpi.com/2072-4292/17/16/2812"
         authors: Huili Huang, Andrew Zhang, Danrong Zhang, M. Mahdi Roozbahani, J. David Frost
         conference: Remote Sensing, 2025
+
+      - title: "From Pixel to Damage Severity: Estimating Earthquake Impacts Using Semantic Segmentation of Social Media Images"
+        link: "https://arxiv.org/abs/2507.02781"
+        authors: Danrong Zhang, Huili Huang, N. Simrill Smith, M. Mahdi Roozbahani, Nimisha Roy, J. David Frost
+        conference: arXiv
     
 
       - title: "Dyniamic Object Detection and Distance Estimation in Construction: A Fisheye Camera and LiDAR Sensor Fusion Model"
@@ -118,10 +123,10 @@ publications:
         conference: GCPR, 2021
 
 
-      # - title: A syntax directed compiler for Algol 60
-      #   link: "#"
-      #   authors: Edgar T. Irons
-      #   conference: "Comm. ACM 4 (1961), 51–55"    
+      - title: An Improved Pseudo-Random Number Generator Based on the Logistic Chaotic
+        link: "https://doi.org/10.1145/3271553.3271565"
+        authors: Huili Huang, Jingtao Yue
+        conference: ICVISP, 2018    
 education:
     title: Education
     info:
