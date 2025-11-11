@@ -28,7 +28,7 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: https://drive.google.com/file/d/1SFkJYDgEmuDgaOrNihuDmxQvftMC-j4E/view?usp=sharing
+    pdf: https://drive.google.com/file/d/1xdZ_KYmWpgcSi_ZIk_SC6dSI86vNnCzQ/view?usp=sharing
 
     languages:
       title: Languages
@@ -57,14 +57,24 @@ sidebar:
 career-profile:
     title: About Me
     summary: |
-      Hello! I'm Huili Huang. I am a 5th year PhD candidate of Computational Science and Engineering(CSE), 
+      Hello! I'm Huili Huang(黄慧丽）. I am a 5th year PhD candidate of Computational Science and Engineering(CSE), 
       I'm advised by [Dr. David Frost](https://ocean.gatech.edu/people/dr-david-frost) and [Dr. Max Mahdi Roozbahani](https://mahdi-roozbahani.github.io/).
-      My research taps into post-disaster damage assessment using deep learning with social media data. 
+      
+      My primary research focuses on post-earthquake infrastructure damage assessment using deep learning, computer vision, and generative AI, with a particular emphasis on ground-level imagery. 
+      I develop large-scale datasets (e.g., EID, EIDSeg) and design domain-adaptive models built upon state-of-the-art foundation models to address real-world disaster response challenges.
+
+      I am currently **actively seeking postdoctoral research opportunities** in related areas, including computer vision, 
+      Gen AI, disaster resilience, and computational modeling.
+      
       My academic trajectory began at the University of Electronic 
       Science and Technology of China (UESTC) where I acquired my B.S. 
       in Software Engineering in 2019. I furthered my knowledge at Georgia Tech, 
       earning an M.S. in Computer Science in 2021.
-      You can view [my resume here](https://drive.google.com/file/d/1SFkJYDgEmuDgaOrNihuDmxQvftMC-j4E/view?usp=sharing).
+      
+      You can view my resume here: 
+      
+      [English Resume](https://drive.google.com/file/d/1xdZ_KYmWpgcSi_ZIk_SC6dSI86vNnCzQ/view?usp=sharing).
+      [中文简历 Chinese Version](https://drive.google.com/file/d/12LU4yeRqr9D76q0K5ra6lJRoyoDlWbF8/view?usp=sharing)
 
 publications:
     title: Publications
