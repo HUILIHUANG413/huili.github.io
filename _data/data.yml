@@ -85,7 +85,7 @@ publications:
     papers:
 
       - title: "EIDSeg: A Pixel-Level Semantic Segmentation Dataset for Post-Earthquake Damage Assessment from Social Media Images"
-        link: ""
+        link: "https://arxiv.org/abs/2511.06456"
         authors: Huili Huang,Chengeng Liu, Danrong Zhang, Shail Patel, Anastasiya Masalava, Sagar Sadak, Parisa Babolhavaeji, WeiHong Low, Max Mahdi Roozbahani, J. David Frost
         conference: AAAI, 2026 (Camera Ready)
 
