@@ -89,6 +89,11 @@ publications:
         authors: Huili Huang,Chengeng Liu, Danrong Zhang, Shail Patel, Anastasiya Masalava, Sagar Sadak, Parisa Babolhavaeji, WeiHong Low, Max Mahdi Roozbahani, J. David Frost
         conference: AAAI, 2026 (Camera Ready)
 
+      - title: "Machine vision-based intelligent analysis of particle breakage in roller-compacted rockfills"
+        link: "https://www.sciencedirect.com/science/article/pii/S0926580525006739"
+        authors: Chengeng Liu,Chaomin Shen, Sihong Liu, Huili Huang, J. David Frost
+        conference: Automation in Construction, 2025
+        
       - title: "DASeg: A Domain-Adaptive Segmentation Pipeline Using Vision Foundation Models—Earthquake Damage Detection Use Case"
         link: "https://www.mdpi.com/2072-4292/17/16/2812"
         authors: Huili Huang, Andrew Zhang, Danrong Zhang, M. Mahdi Roozbahani, J. David Frost
