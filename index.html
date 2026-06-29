@@ -1,25 +1,202 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Huili Huang — Disaster Resilience × AI</title>
+  <meta name="description" content="Huili Huang is a postdoctoral researcher at Georgia Tech working on AI for post-disaster damage assessment — deep learning, computer vision, and generative AI for earthquake resilience." />
+  <meta name="author" content="Huili Huang" />
+  <meta name="theme-color" content="#ffffff" />
 
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Huili Huang — Disaster Resilience × AI" />
+  <meta property="og:description" content="Postdoctoral researcher at Georgia Tech building AI for post-disaster damage assessment — deep learning, computer vision, and generative AI." />
+  <meta property="og:image" content="assets/images/CV.jpg" />
+  <meta name="twitter:card" content="summary" />
 
-{% include career-profile.html %}
+  <link rel="icon" href="favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/site.css?v=4" />
+</head>
+<body>
+  <div class="bg-layer"></div>
+  <div class="bg-grid"></div>
+  <canvas id="particles"></canvas>
 
-{% include publications.html %}
+  <!-- ===== Nav ===== -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html">
+        <span class="dot"></span> Huili <span class="grad-text">Huang</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+      <ul class="nav-links">
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="teaching.html">Teaching</a></li>
+        <li><a href="cv.html">CV</a></li>
+      </ul>
+    </div>
+  </nav>
 
-{% unless site.data.data.sidebar.education %}
-  {% include education.html %}
-{% endunless %}
+  <!-- ===== Hero ===== -->
+  <header class="hero">
+    <div class="container hero-grid">
+      <div class="reveal">
+        <h1>Huili Huang <span class="cn">黄慧丽</span></h1>
+        <p class="tagline">Disaster Resilience × AI</p>
+        <div class="prose" style="max-width:42em">
+          <p>
+            Hello! I'm Huili Huang, a <strong>postdoctoral fellow</strong> in the School of Civil and Environmental
+            Engineering at <strong>Georgia Tech</strong>, working with
+            <a href="https://ocean.gatech.edu/people/dr-david-frost" target="_blank" rel="noopener">Dr. David Frost</a>.
+            I completed my Ph.D. in Computational Science and Engineering at Georgia Tech under the supervision of
+            Dr. David Frost and
+            <a href="https://www.cse.gatech.edu/people/mahdi-roozbahani" target="_blank" rel="noopener">Dr. Max Mahdi Roozbahani</a>.
+          </p>
+          <p>
+            As a computer scientist working on real-world engineering problems, my research focuses on
+            <strong>AI for disaster resilience</strong>, particularly damage assessment using deep learning,
+            computer vision, and generative AI, with an emphasis on ground-level imagery. I develop large-scale
+            disaster image datasets, including
+            <a href="https://doi.org/10.1177/87552930251335649" target="_blank" rel="noopener">EID</a> and
+            <a href="https://arxiv.org/abs/2511.06456" target="_blank" rel="noopener">EIDSeg</a>, and design
+            domain-adaptive models built upon state-of-the-art foundation models to address practical challenges
+            in disaster response and infrastructure resilience.
+          </p>
+        </div>
+        <div class="chips" style="margin:0 0 24px">
+          <span class="chip">Computer Vision</span>
+          <span class="chip">Generative AI</span>
+          <span class="chip">Disaster Resilience</span>
+          <span class="chip">Remote Sensing</span>
+        </div>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="mailto:hhuang413@gatech.edu">
+            <svg viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5z"/></svg>
+            Email
+          </a>
+          <a class="btn" href="https://drive.google.com/file/d/1k2LqG0JB4WaCB-yeAsn_OaxXDeoVc4N8/view?usp=drive_link" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zm-1 7V3.5L18.5 9z"/></svg>
+            CV (PDF)
+          </a>
+          <!-- TODO: replace href with your Google Scholar profile URL -->
+          <a class="btn" href="https://scholar.google.com/citations?user=PqlLObwAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24"><path d="M12 3 1 9l11 6 9-4.9V17h2V9zM4 13.5V17l8 4 8-4v-3.5l-8 4.4z"/></svg>
+            Scholar
+          </a>
+          <a class="btn" href="https://www.linkedin.com/in/huilihuanggt" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zM8.34 18.34V9.99H5.67v8.35zM7 8.84a1.55 1.55 0 1 0 0-3.1 1.55 1.55 0 0 0 0 3.1m11.34 9.5v-4.58c0-2.45-1.31-3.59-3.06-3.59a2.64 2.64 0 0 0-2.39 1.32V9.99h-2.67v8.35h2.67v-4.41c0-1.16.22-2.29 1.66-2.29s1.45 1.33 1.45 2.36v4.34z"/></svg>
+            LinkedIn
+          </a>
+          <a class="btn" href="https://github.com/HUILIHUANG413" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 6.84 9.5c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.36 1.09 2.94.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.94.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 22 12 10 10 0 0 0 12 2z"/></svg>
+            GitHub
+          </a>
+        </div>
+      </div>
+      <div class="hero-photo-wrap reveal">
+        <img class="hero-photo" src="assets/images/CV.jpg" alt="Portrait of Huili Huang" />
+      </div>
+    </div>
+  </header>
 
-{% include experiences.html %}
+  <main>
+    <!-- ===== News ===== -->
+    <section class="section" id="news">
+      <div class="container reveal">
+        <div class="section-head">
+          <p class="kicker">Updates</p>
+          <h2>News</h2>
+        </div>
+        <div class="card">
+          <div class="news-item">
+            <span class="news-date">2026.5</span>
+            <span class="news-text">Defended my Ph.D. thesis: <strong>“Post-disaster Damage Assessment Based on Deep Learning with Surrogate Data.”</strong></span>
+          </div>
+          <div class="news-item">
+            <span class="news-date">2026.4</span>
+            <span class="news-text">Won the <strong>Outstanding Graduate Research Assistant Award</strong> of 2026, College of Computing, Georgia Tech.</span>
+          </div>
+          <div class="news-item">
+            <span class="news-date">2026.1</span>
+            <span class="news-text"><a href="https://arxiv.org/abs/2511.06456" target="_blank" rel="noopener">EIDSeg</a> accepted at <strong>AAAI 2026</strong> (AI for Social Impact).</span>
+          </div>
+          <div class="news-item">
+            <span class="news-date">2025.10</span>
+            <span class="news-text">Our paper on <a href="https://www.sciencedirect.com/science/article/pii/S0926580525006739" target="_blank" rel="noopener">machine-vision particle-breakage analysis</a> was accepted in <strong>Automation in Construction</strong>. Congrats Chengeng!</span>
+          </div>
+          <div class="news-item">
+            <span class="news-date">2025.8</span>
+            <span class="news-text"><a href="https://www.mdpi.com/2072-4292/17/16/2812" target="_blank" rel="noopener">DASeg</a> published in <strong>Remote Sensing</strong>.</span>
+          </div>
+          <div class="news-item">
+            <span class="news-date">2025.3</span>
+            <span class="news-text">Paper on social-media imagery datasets for earthquake infrastructure damage (<strong>EID</strong>) published in <a href="https://journals.sagepub.com/doi/10.1177/87552930251335649" target="_blank" rel="noopener">Earthquake Spectra</a>.</span>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<!-- {% include certifications.html %} -->
+    <!-- ===== Selected publications ===== -->
+    <section class="section" id="selected">
+      <div class="container reveal">
+        <div class="section-head">
+          <p class="kicker">Selected work</p>
+          <h2>Recent publications</h2>
+          <p>A few highlights. See the <a href="publications.html" style="color:var(--cyan);text-decoration:none">full list →</a></p>
+        </div>
 
-{% include projects.html %}
+        <div class="pub">
+          <div class="pub-body">
+            <p class="pub-title"><a href="https://arxiv.org/abs/2511.06456" target="_blank" rel="noopener">EIDSeg: A Pixel-Level Semantic Segmentation Dataset for Post-Earthquake Damage Assessment from Social Media Images</a></p>
+            <p class="pub-authors"><span class="me">Huili Huang</span>, Chengeng Liu, Danrong Zhang, et al.</p>
+            <span class="pub-venue">AAAI, AI for Social Impact (AISI), 2026</span>
+          </div>
+          <div><span class="tag">AAAI '26</span></div>
+        </div>
 
-{% include oss-contributions.html %}
+        <div class="pub">
+          <div class="pub-body">
+            <p class="pub-title"><a href="https://www.mdpi.com/2072-4292/17/16/2812" target="_blank" rel="noopener">DASeg: A Domain-Adaptive Segmentation Pipeline Using Vision Foundation Models — Earthquake Damage Detection Use Case</a></p>
+            <p class="pub-authors"><span class="me">Huili Huang</span>, Andrew Zhang, Danrong Zhang, M. Mahdi Roozbahani, J. David Frost</p>
+            <span class="pub-venue">Remote Sensing, 2025</span>
+          </div>
+          <div><span class="tag">Remote Sensing</span></div>
+        </div>
 
+        <div class="pub">
+          <div class="pub-body">
+            <p class="pub-title"><a href="https://doi.org/10.1177/87552930251335649" target="_blank" rel="noopener">Towards Enhancing the Utility of Social Media Images in Earthquake Disaster Assessment</a></p>
+            <p class="pub-authors"><span class="me">Huili Huang</span>, Danrong Zhang, Anastasiya Masalava, M. Mahdi Roozbahani, Nimisha Roy, J. David Frost</p>
+            <span class="pub-venue">Earthquake Spectra, 2025</span>
+          </div>
+          <div><span class="tag">Eq. Spectra</span></div>
+        </div>
+      </div>
+    </section>
+  </main>
 
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="copy">© <span id="year">2026</span> Huili Huang · Atlanta, GA</span>
+      <div class="social">
+        <a href="mailto:hhuang413@gatech.edu" aria-label="Email"><svg viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5z"/></svg></a>
+        <!-- TODO: replace with your Google Scholar URL -->
+        <a href="https://scholar.google.com/citations?user=PqlLObwAAAAJ&amp;hl=en" target="_blank" rel="noopener" aria-label="Google Scholar"><svg viewBox="0 0 24 24"><path d="M12 3 1 9l11 6 9-4.9V17h2V9zM4 13.5V17l8 4 8-4v-3.5l-8 4.4z"/></svg></a>
+        <!-- TODO: replace with your ORCID URL -->
+        <a href="#" aria-label="ORCID" data-placeholder="orcid"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20M8.3 7.1a.86.86 0 1 1 0 1.72.86.86 0 0 1 0-1.72m.64 9.3H7.66V9.7h1.28zm6.1 0h-3.2V9.7h3.06c2.04 0 3.06 1.46 3.06 3.35 0 1.9-1.18 3.35-3 3.35zm-.13-5.5h-1.79v4.3h1.7c1.45 0 2.06-.98 2.06-2.15 0-1.25-.74-2.15-1.97-2.15"/></svg></a>
+        <a href="https://www.linkedin.com/in/huilihuanggt" aria-label="LinkedIn" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zM8.34 18.34V9.99H5.67v8.35zM7 8.84a1.55 1.55 0 1 0 0-3.1 1.55 1.55 0 0 0 0 3.1m11.34 9.5v-4.58c0-2.45-1.31-3.59-3.06-3.59a2.64 2.64 0 0 0-2.39 1.32V9.99h-2.67v8.35h2.67v-4.41c0-1.16.22-2.29 1.66-2.29s1.45 1.33 1.45 2.36v4.34z"/></svg></a>
+        <a href="https://github.com/HUILIHUANG413" aria-label="GitHub" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 6.84 9.5c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.36 1.09 2.94.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.94.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 22 12 10 10 0 0 0 12 2z"/></svg></a>
+      </div>
+    </div>
+  </footer>
 
-{% include skills.html %}
-
+  <script src="assets/js/site.js?v=2"></script>
+</body>
+</html>

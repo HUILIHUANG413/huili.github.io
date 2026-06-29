@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Research — Huili Huang</title>
+  <meta name="description" content="Research highlights by Huili Huang: EIDSeg & EID earthquake-damage datasets, domain-adaptive segmentation with vision foundation models, social-media damage assessment, and self-supervised learning." />
+  <meta name="theme-color" content="#ffffff" />
+  <meta property="og:title" content="Research — Huili Huang" />
+  <meta property="og:description" content="AI for post-earthquake damage assessment: datasets, domain-adaptive segmentation, and foundation models." />
+  <meta property="og:image" content="assets/images/CV.jpg" />
+  <link rel="icon" href="favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/site.css?v=4" />
+</head>
+<body>
+  <div class="bg-layer"></div>
+  <div class="bg-grid"></div>
+  <canvas id="particles"></canvas>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html"><span class="dot"></span> Huili <span class="grad-text">Huang</span></a>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="research.html">Research</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="teaching.html">Teaching</a></li>
+        <li><a href="cv.html">CV</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker">What I work on</p>
+          <h2>Research Highlights</h2>
+          <p>
+            I develop AI systems that turn messy, real-world imagery such as social media photos, ground-level
+            shots, satellite and nighttime data into actionable damage information after natural disasters.
+          </p>
+        </div>
+
+        <div class="grid grid-2">
+
+          <!-- EID -->
+          <article class="card research-card reveal">
+            <div class="research-figure">
+              <img src="assets/images/EID.jpg" alt="EID dataset examples" />
+            </div>
+            <div class="research-body">
+              <h3>EID — Earthquake Image Dataset</h3>
+              <p class="venue">Earthquake Spectra, 2025</p>
+              <p>
+                The <strong>Earthquake Image Dataset (EID)</strong> is a large-scale collection of ground-level,
+                social-media photos labeled for earthquake damage, along with methods that make crowd-sourced
+                imagery genuinely useful for rapid disaster response.
+              </p>
+              <div class="research-links">
+                <a class="link-pill" href="https://journals.sagepub.com/doi/10.1177/87552930251335649" target="_blank" rel="noopener">Paper ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- EIDSeg -->
+          <article class="card research-card reveal">
+            <div class="research-figure">
+              <img src="assets/images/EIDSeg.png" alt="EIDSeg pixel-level segmentation examples" />
+            </div>
+            <div class="research-body">
+              <h3>EIDSeg — Pixel-Level Damage Segmentation</h3>
+              <p class="venue">AAAI 2026 · AI for Social Impact</p>
+              <p>
+                <strong>EIDSeg</strong> extends EID with pixel-level semantic segmentation labels: instead of
+                tagging a whole photo, it marks which pixels are damaged and how severely. It is
+                the first datasets to give fine-grained, ground-level damage masks from social-media images.
+              </p>
+              <div class="research-links">
+                <a class="link-pill" href="https://arxiv.org/abs/2511.06456" target="_blank" rel="noopener">Paper ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- DASeg -->
+          <article class="card research-card reveal">
+            <div class="research-figure">
+              <img src="assets/images/daseg.png" alt="DASeg domain-adaptive segmentation pipeline" />
+            </div>
+            <div class="research-body">
+              <h3>DASeg — Domain-Adaptive Segmentation</h3>
+              <p class="venue">Remote Sensing, 2025</p>
+              <p>
+                <strong>DASeg (Domain-Adaptive Segmentation)</strong> is a segmentation pipeline built on Vision
+                Foundation Models (VFM) that adapts to <em>new</em> disasters with little or no labeled data, solving a
+                key obstacle to deploying damage-assessment models in the earthquake damage.
+              </p>
+              <div class="research-links">
+                <a class="link-pill" href="https://www.mdpi.com/2072-4292/17/16/2812" target="_blank" rel="noopener">Paper ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- SeismoMind -->
+          <article class="card research-card reveal">
+            <div class="research-figure">
+              <img src="assets/images/Seismomind.jpg" alt="SeismoMind framework overview" />
+            </div>
+            <div class="research-body">
+              <h3>SeismoMind — LLM Reasoning for Damage</h3>
+              <p class="venue">Under review · Advanced Engineering Informatics</p>
+              <p>
+                <strong>SeismoMind</strong> guides a multimodal large language model (LLM) through a
+                decision tree to interpret post-earthquake infrastructure damage from images,
+                producing structured, explainable assessments <em>zero-shot</em>, with no task-specific training.
+              </p>
+              <div class="research-links">
+                <a class="link-pill" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6466459" target="_blank" rel="noopener">Paper ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Nighttime light -->
+          <article class="card research-card reveal">
+            <div class="research-figure">
+              <img src="assets/images/Ntightimelight.png" alt="Nighttime-light disaster damage assessment" />
+            </div>
+            <div class="research-body">
+              <h3>Nighttime Light Damage Assessment</h3>
+              <p class="venue">Remote Sensing, 2023</p>
+              <p>
+                A disaster hitting a region often knocks out its lights. This work uses NASA's
+                <strong>Black Marble nighttime-light</strong> satellite data to detect and measure that drop —
+                assessing disaster impact at scale from space, complementing ground-level imagery.
+              </p>
+              <div class="research-links">
+                <a class="link-pill" href="https://www.mdpi.com/2072-4292/15/17/4257" target="_blank" rel="noopener">Paper ↗</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="banner reveal" style="margin-top:34px">
+          <span class="icon"><svg viewBox="0 0 24 24"><path d="M12 1 3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5z"/></svg></span>
+          <div>
+            <strong>Want the details?</strong>
+            <p>Browse the <a href="publications.html" style="color:var(--cyan);text-decoration:none">full publication list</a> or <a href="mailto:hhuang413@gatech.edu" style="color:var(--cyan);text-decoration:none">get in touch</a>.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="copy">© <span id="year">2026</span> Huili Huang · Atlanta, GA</span>
+      <div class="social">
+        <a href="mailto:hhuang413@gatech.edu" aria-label="Email"><svg viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5z"/></svg></a>
+        <a href="https://scholar.google.com/citations?user=PqlLObwAAAAJ&amp;hl=en" target="_blank" rel="noopener" aria-label="Google Scholar"><svg viewBox="0 0 24 24"><path d="M12 3 1 9l11 6 9-4.9V17h2V9zM4 13.5V17l8 4 8-4v-3.5l-8 4.4z"/></svg></a>
+        <a href="#" aria-label="ORCID" data-placeholder="orcid"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20M8.3 7.1a.86.86 0 1 1 0 1.72.86.86 0 0 1 0-1.72m.64 9.3H7.66V9.7h1.28zm6.1 0h-3.2V9.7h3.06c2.04 0 3.06 1.46 3.06 3.35 0 1.9-1.18 3.35-3 3.35zm-.13-5.5h-1.79v4.3h1.7c1.45 0 2.06-.98 2.06-2.15 0-1.25-.74-2.15-1.97-2.15"/></svg></a>
+        <a href="https://www.linkedin.com/in/huilihuanggt" aria-label="LinkedIn" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zM8.34 18.34V9.99H5.67v8.35zM7 8.84a1.55 1.55 0 1 0 0-3.1 1.55 1.55 0 0 0 0 3.1m11.34 9.5v-4.58c0-2.45-1.31-3.59-3.06-3.59a2.64 2.64 0 0 0-2.39 1.32V9.99h-2.67v8.35h2.67v-4.41c0-1.16.22-2.29 1.66-2.29s1.45 1.33 1.45 2.36v4.34z"/></svg></a>
+        <a href="https://github.com/HUILIHUANG413" aria-label="GitHub" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 6.84 9.5c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.36 1.09 2.94.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.94.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 22 12 10 10 0 0 0 12 2z"/></svg></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/site.js?v=2"></script>
+</body>
+</html>
